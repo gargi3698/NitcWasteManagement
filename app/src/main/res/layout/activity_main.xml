@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-64dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="50dp"
+        android:fadingEdgeLength="80dp"
+        android:fontFamily="serif"
+        android:text="NITC Waste Management System"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/userLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="145dp"
+        android:backgroundTint="@color/green"
+        android:text="User Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/suprvisor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="145dp"
+        android:backgroundTint="@color/green"
+        android:text="Supervisor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="162dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintBottom_toTopOf="@+id/userLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/nitcfinal" />
+
+    <Button
+        android:id="@+id/adminLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="504dp"
+        android:backgroundTint="@color/green"
+        android:text="Admin Login"
+        app:layout_constraintEnd_toEndOf="@+id/userLogin"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/userLogin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registerUser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:backgroundTint="@color/green"
+        android:text="register User"
+        app:layout_constraintEnd_toEndOf="@+id/adminLogin"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/adminLogin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aboutUs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:text="about us"
+        android:backgroundTint="@color/green"
+        app:layout_constraintEnd_toEndOf="@+id/adminLogin"
+        app:layout_constraintStart_toStartOf="@+id/adminLogin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

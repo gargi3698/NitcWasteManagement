@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Widget.Theme.WasteManagement.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+        <item name="statusBarBackground">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+    </style>
+
+</resources>

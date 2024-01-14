@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    >
+
+    <TextView
+        android:id="@+id/complaintDetail"
+        android:layout_width="376dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/feedbackdetail"
+        android:layout_width="376dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/succcessfulMsgg"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+
+        android:layout_marginStart="3dp"
+
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="596dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Feedback "
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toEndOf="@+id/complaintDetail"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/succcessfulMsggg"
+        android:layout_width="323dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Given Sucessfully!"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/succcessfulMsgg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="92dp"
+        android:elevation="12dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:background="@color/ligreen"
+            android:backgroundTint="@color/white"
+
+            android:src="@drawable/baseline_register"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

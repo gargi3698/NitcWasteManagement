@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupervisorAttendance"
+    android:background="@drawable/app_background">
+
+    <TextView
+        android:id="@+id/sAtt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/app_background"
+        android:backgroundTint="@color/green"
+        android:text="  Mark your Attendance here!"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/attendSpinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/greenback"
+        android:backgroundTint="@color/greenback"
+        android:drawableRight="@drawable/baseline_arrow_drop_down_24"
+        app:layout_constraintTop_toBottomOf="@+id/sAtt"
+        app:layout_constraintVertical_bias="0.299"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/attendanceBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/rounded_button"
+        android:text="Mark Attendance"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attendSpinner"
+        app:layout_constraintVertical_bias="0.379" />
+</androidx.constraintlayout.widget.ConstraintLayout>

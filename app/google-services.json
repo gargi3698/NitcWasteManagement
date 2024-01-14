@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "974655103524",
+    "project_id": "nitc-waste-management-4e478",
+    "storage_bucket": "nitc-waste-management-4e478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974655103524:android:ac6d6fa9c4e4ee5b11eeb1",
+        "android_client_info": {
+          "package_name": "com.example.wastemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974655103524-9su3ltb5c29hhcccfunnvldbomb7va19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wastemanagement",
+            "certificate_hash": "7baef18310ae5027a3897c127e35386ece9a2eb7"
+          }
+        },
+        {
+          "client_id": "974655103524-comld045334dqreocek7jt2qe89lrqbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu6zXuhdDducOVSzrg8-KXpMkhFe0C1hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974655103524-comld045334dqreocek7jt2qe89lrqbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

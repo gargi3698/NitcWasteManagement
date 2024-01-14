@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".SupervisorDashboard">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userDashPic"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:contentDescription="UserProfileImage"
+        android:src="@drawable/profileuser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <Button
+        android:id="@+id/sAttendance"
+
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+
+        android:drawableStart="@drawable/ic_user_dashboard_icon"
+        android:text="Mark Attendance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userDashPic"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <Button
+        android:id="@+id/managestaff"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+
+
+        android:layout_marginBottom="188dp"
+
+        android:backgroundTint="@color/green"
+        android:drawableStart="@drawable/ic_user_dashboard_icon"
+        android:text="Manage Team"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sAttendance"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/sAttendance"
+        app:layout_constraintTop_toBottomOf="@+id/sAttendance"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <Button
+        android:id="@+id/sFeed"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+
+
+        android:backgroundTint="@color/green"
+        android:text="Give Feedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sSolStatus"
+        app:layout_constraintStart_toStartOf="@+id/sSolStatus"
+        app:layout_constraintTop_toBottomOf="@+id/managestaff"
+        app:layout_constraintVertical_bias="0.422"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sSolStatus"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="@color/green"
+        android:text="Assigned Complaints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/managestaff"
+        app:layout_constraintStart_toStartOf="@+id/managestaff"
+        app:layout_constraintTop_toBottomOf="@+id/managestaff"
+        app:layout_constraintVertical_bias="0.317"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/supervisorlogout"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:drawableStart="@drawable/ic_user_dashboard_icon"
+        android:drawableLeft="@drawable/baseline_login_24"
+        android:drawableTint="@color/white"
+        android:text="Logout"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sFeed"
+        app:layout_constraintStart_toStartOf="@+id/sFeed"
+        app:layout_constraintTop_toBottomOf="@+id/sFeed"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPERVISOR DASHBOARD"
+        android:textColor="@color/white"
+        android:textSize="31dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/userDashPic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

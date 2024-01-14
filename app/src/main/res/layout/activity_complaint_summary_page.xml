@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".ComplaintSummaryPage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="561dp"
+        android:drawableTop="@drawable/baseline_comment_24"
+        android:text=" Complaint Summary"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:text="Approved Complaint :"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/approvecomplaintno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="330dp"
+        android:textSize="25dp"
+        android:text="-_-" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disapproved complaint :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solved Complaint :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unsolved Coomplaint :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Complaint :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/disapprovecomplaintno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-_-"
+        android:textColor="@color/white"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="330dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/solvedcomplaintno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-_-"
+        android:textColor="@color/white"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="330dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/unsolvedcomplaintno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-_-"
+        android:textColor="@color/white"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="330dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/totalcoplaintno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-_-"
+        android:textColor="@color/white"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="330dp"
+        android:textSize="25dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/app_background"
+    android:visibility="visible"
+    tools:context=".SupervisorLogin"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+
+        android:layout_height="166dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:drawableTop="@drawable/baseline_person_24"
+        android:drawablePadding="9dp"
+        android:fadingEdgeLength="80dp"
+        android:gravity="center"
+        android:text="Supervisor Login"
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/supervisoremail"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="87dp"
+        android:drawablePadding="20dp"
+        android:hint="Email-Id"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray_400"
+        android:textSize="20dp" />
+
+
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/supervisoremail"
+        android:layout_marginStart="10dp"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray_400"
+        android:textSize="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/password"
+        android:layout_marginTop="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/loginBtn"
+        android:layout_alignBottom="@+id/loginBtn"
+        android:layout_marginStart="-20dp"
+        android:layout_marginBottom="-61dp"
+        android:text="Don't have account?"
+        android:textColor="#F7FFFFFF" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_below="@+id/loginBtn"
+        android:layout_alignStart="@+id/loginBtn"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="52dp"
+        android:text="Signup Now"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FAFFFFFF"
+        android:textColorHighlight="#009688"
+        android:backgroundTint="@color/green"
+        android:textColorHint="#F0FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
